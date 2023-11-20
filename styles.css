@@ -1,0 +1,17 @@
+.alienPlanetsContainer {
+       display: flex;
+       flex-wrap: wrap;
+       flex-direction: row;
+       gap: 10px;
+       align-items: center;
+       align-content: center;
+}
+
+.planet {
+       border: 2px solid black;
+       border-radius: 10px;
+       display: flex;
+       align-items: center;
+       flex-direction: column;
+       padding: 10px;
+}
